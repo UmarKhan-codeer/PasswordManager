@@ -1,44 +1,102 @@
-# 🔐 Password Manager
+# 🔐 PassOP – Your Personal Password Manager
 
-A simple and secure password manager built with React, Vite, and Tailwind CSS. It allows users to generate, save, and manage passwords in their browser using client-side encryption.
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![React](https://img.shields.io/badge/react-%5E18.0.0-blue)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%5E3.0.0-cyan)
+
+**PassOP** is a secure, elegant, and 100% client-side password manager built with modern web technologies. It allows users to safely store, manage, and generate strong passwords directly in the browser using AES-GCM encryption, powered by the Web Crypto API.
+
+![PassOP Screenshot](./screenshot.png) <!-- Optional: Replace with your actual image -->
+
+---
+
+## 🌐 Live Demo
+
+🔗 [https://passop.vercel.app](https://passop.vercel.app)  
+> Try it live now — no account required!
+
+---
 
 ## 🚀 Features
-- Add and view saved passwords
-- Password generator
-- Password strength indicator
-- Encrypted password storage (coming soon)
-- CRUD operations
-- Responsive UI with Tailwind CSS
 
-## 🛠 Tech Stack
-- React.js (Vite)
-- Tailwind CSS
-- JavaScript (ES6+)
-- Web Crypto API (for encryption)
-- LocalStorage
+- 🔒 **Master Password Protection**  
+  Your data is encrypted and accessible only with your master password.
 
-## 📷 Demo
+- 📦 **Client-Side Encryption (AES-GCM)**  
+  All data is stored securely in your browser with military-grade encryption.
 
-👉 **Live Link:** (Coming Soon)
+- 🧠 **Password Strength Checker**  
+  Real-time feedback on password complexity and strength.
 
-![Screenshot](./screenshot.png) <!-- Optional -->
+- 🎲 **Secure Password Generator**  
+  Instantly generate strong and complex passwords.
 
-## 📦 Installation
+- 👁️ **Password Visibility Toggle**  
+  Show/hide passwords during editing for clarity.
+
+- 📋 **Copy to Clipboard**  
+  Quickly copy usernames, passwords, or URLs with a single click.
+
+- ✏️ **Editable Vault**  
+  Edit or delete saved credentials anytime.
+
+- 📁 **No Account Required**  
+  Everything is stored locally — no sign-up, no cloud.
+
+---
+
+## 📸 UI Preview
+
+> Clean, responsive, and accessible — built with Tailwind CSS
+
+![UI Preview](./ui-preview.png) <!-- Optional image -->
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS  
+- **Encryption:** Web Crypto API (`AES-GCM`)  
+- **Icons:** Lucide + Custom SVG  
+- **Clipboard & Notifications:** React Toastify  
+- **Storage:** LocalStorage (browser-based, encrypted)
+
+---
+
+## 📁 Getting Started – Run Locally
+
+Clone the repository and start the development server:
 
 ```bash
-git clone https://github.com/UmarKhan-codeer/PasswordManager.git
-cd PasswordManager
+git clone https://github.com/your-username/passop.git
+cd passop
 npm install
 npm run dev
+Then open:
+📂 http://localhost:5173 in your browser
 
-🔐 Upcoming Features
- Master password login
+🚧 Future Enhancements
+Exciting ideas to take PassOP even further:
 
- Encrypted storage using AES
+✅ Dark/Light Mode
+Auto or toggle-based theming for better accessibility.
 
- Dark mode
+🔐 Biometric Authentication (WebAuthn)
+Unlock your vault using Face ID, Touch ID, or Windows Hello.
 
- Export/Import passwords securely
+☁️ Cloud Sync with Firebase
+Sync encrypted data securely across devices.
 
-🧠 Author
-Umar Khan – GitHub
+🧠 AI-Powered Password Suggestions
+Generate context-aware passwords based on website/domain.
+
+👨‍💻 Author
+Made with ❤️ by Umer Khan
+
+🐙 GitHub: github.com/your-username
+
+💼 LinkedIn: linkedin.com/in/your-link
+
+📄 License
+This project is licensed under the MIT License.

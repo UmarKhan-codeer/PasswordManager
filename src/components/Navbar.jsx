@@ -1,30 +1,42 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className='bg-slate-800 text-white'>
-      <div className="mycontainer  flex justify-between items-center px-4 py-5 h-14">
-      <div className="logo font-bold text-white text-2xl">
-       <span className='text-green-500'> &lt;</span>
-        <span>Pass</span>
-        <span className='text-green-500'>OP/ &gt;</span>
-        
+    <nav className="bg-slate-900 text-white shadow-sm">
+      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        {/* Logo */}
+        <div className="text-2xl font-bold tracking-tight flex items-center gap-1">
+          <span className="text-green-500">&lt;</span>
+          Pass
+          <span className="text-green-500">OP/&gt;</span>
         </div>
-     {/* <ul>
-      <li className='flex gap-4'>
-        <a className='hover:font-bold' href="/">Home</a>
-        <a className='hover:font-bold' href="#">About</a>
-        <a className='hover:font-bold' href="#">Contact</a>
-      </li>
-     </ul> */}
-     <button className='text-white bg-green-700 my-5 mx-2 rounded-full flex gap-1 justify-between items-center'>
-      <img className="invert w-10 p-1"  src="icons/github.svg" alt="" />
-      <span className='font-bold px-2'> GitHub</span>
-     
-     </button>
-     </div>
-    </nav>
-  )
-}
 
-export default Navbar
+        {/* Future Nav Links (optional) */}
+        {/* 
+        <ul className="hidden md:flex gap-6 text-sm">
+          <li><a className="hover:text-green-400" href="/">Home</a></li>
+          <li><a className="hover:text-green-400" href="#">About</a></li>
+          <li><a className="hover:text-green-400" href="#">Contact</a></li>
+        </ul> 
+        */}
+
+        {/* GitHub Button */}
+        <a
+          href="https://github.com/your-repo-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-600 hover:bg-green-700 text-white flex items-center gap-2 px-4 py-2 rounded-full transition-all duration-200"
+        >
+          <img
+            src="/icons/github.svg"
+            alt="GitHub"
+            className="w-5 h-5 invert"
+          />
+          <span className="text-sm font-semibold">GitHub</span>
+        </a>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
