@@ -7,7 +7,7 @@
 
 **PassOP** is a secure, elegant, and 100% client-side password manager built with modern web technologies. It allows users to safely store, manage, and generate strong passwords directly in the browser using AES-GCM encryption, powered by the Web Crypto API.
 
-![PassOP Screenshot](./screenshot.png) <!-- Optional: Replace with your actual image -->
+![PassOP Screenshot](./screenshot.PNG) 
 
 ---
 
@@ -50,7 +50,7 @@
 
 > Clean, responsive, and accessible — built with Tailwind CSS
 
-![UI Preview](./ui-preview.png) <!-- Optional image -->
+![UI Preview](./ui-preview.PNG) 
 
 ---
 
@@ -64,23 +64,9 @@
 
 ---
 
-## 📁 Getting Started – Run Locally
-
-Clone the repository and start the development server:
-
-```bash
-git clone https://github.com/your-username/passop.git
-cd passop
-npm install
-npm run dev
-Then open:
-📂 http://localhost:5173 in your browser
 
 🚧 Future Enhancements
 Exciting ideas to take PassOP even further:
-
-✅ Dark/Light Mode
-Auto or toggle-based theming for better accessibility.
 
 🔐 Biometric Authentication (WebAuthn)
 Unlock your vault using Face ID, Touch ID, or Windows Hello.
