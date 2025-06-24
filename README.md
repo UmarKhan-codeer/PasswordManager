@@ -7,7 +7,7 @@
 
 **PassOP** is a secure, elegant, and 100% client-side password manager built with modern web technologies. It allows users to safely store, manage, and generate strong passwords directly in the browser using AES-GCM encryption, powered by the Web Crypto API.
 
-![PassOP Screenshot](./screenshot.PNG) 
+![PassOP Screenshot](./screenshot.PNG)
 
 ---
 
@@ -50,7 +50,7 @@
 
 > Clean, responsive, and accessible — built with Tailwind CSS
 
-![UI Preview](./ui-preview.PNG) 
+![UI Preview](./ui-preview.PNG)
 
 ---
 
@@ -64,25 +64,30 @@
 
 ---
 
+## 🚧 Future Enhancements
 
-🚧 Future Enhancements
-Exciting ideas to take PassOP even further:
+Exciting ideas to take **PassOP** even further:
 
-🔐 Biometric Authentication (WebAuthn)
-Unlock your vault using Face ID, Touch ID, or Windows Hello.
+- 🔐 **Biometric Authentication (WebAuthn)**  
+  Unlock your vault using Face ID, Touch ID, or Windows Hello.
 
-☁️ Cloud Sync with Firebase
-Sync encrypted data securely across devices.
+- ☁️ **Cloud Sync with Firebase**  
+  Sync encrypted data securely across devices.
 
-🧠 AI-Powered Password Suggestions
-Generate context-aware passwords based on website/domain.
+- 🧠 **AI-Powered Password Suggestions**  
+  Generate context-aware passwords based on website/domain.
 
-👨‍💻 Author
-Made with ❤️ by Umer Khan
+---
 
-🐙 GitHub: github.com/your-username
+## 👨‍💻 Author
 
-💼 LinkedIn: linkedin.com/in/your-link
+Made with ❤️ by **Umer Khan**
 
-📄 License
-This project is licensed under the MIT License.
+- 🐙 GitHub: [github.com/UmarKhan-codeer](https://github.com/UmarKhan-codeer)  
+- 💼 LinkedIn: [linkedin.com/in/umer-khan](https://www.linkedin.com/in/umerrjaved/)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE.md).
