@@ -14,6 +14,7 @@ function App() {
       <Manager/>
       </div>
       <Footer/>
+      <script src="https://cdn.lordicon.com/lordicon.js"></script>
     </>
   )
 }

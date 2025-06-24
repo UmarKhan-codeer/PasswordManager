@@ -1,20 +1,27 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <div className='bg-slate-800 text-white flex flex-col justify-center items-center w-full'>
-      <div className="logo font-bold text-white text-2xl  ">
-       <span className='text-green-500'> &lt;</span>
-        <span>Pass</span>
-        <span className='text-green-500'>OP/ &gt;</span>
-        
+    <footer className="bg-slate-800 text-white py-6 px-4 mt-auto">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* Logo */}
+        <div className="text-2xl font-bold text-center md:text-left">
+          <span className="text-green-500">&lt;</span>
+          Pass
+          <span className="text-green-500">OP/&gt;</span>
         </div>
 
+        {/* Footer Info */}
+        <div className="text-sm text-center md:text-right flex items-center gap-2">
+          <span>© {currentYear} PassOP. Made with</span>
+          <img src="icons/heart.png" alt="heart" className="w-5 h-5" />
+          <span>by Umer</span>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-        <div className='flex justify-center items-center'>Created with<img className='w-7 mx-2 'src="icons/heart.png"alt="" />by CodeWithUmer
-       </div>
-    </div>
-  )
-}
-
-export default Footer
+export default Footer;
